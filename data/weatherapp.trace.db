@@ -1,0 +1,9 @@
+2024-09-16 12:49:56.395287+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WEATHER_DATA" not found (this database is empty); SQL statement:
+insert into weather_data (date,location,temp,weather_description,id) values (?,?,?,?,default) [42104-224]
+2024-09-16 12:51:10.039545+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WEATHER_DATA" not found (this database is empty); SQL statement:
+insert into weather_data (date,location,temp,weather_description,id) values (?,?,?,?,default) [42104-224]
+2024-09-16 12:53:57.069120+01:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]DATE"; expected "DELETE, DROP"; SQL statement:
+DATE [42001-224]
